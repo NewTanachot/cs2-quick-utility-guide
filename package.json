@@ -1,0 +1,8 @@
+{
+  "name": "cs2-quick-smoke-guide",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 8080",
+    "preview": "npm run start"
+  }
+}

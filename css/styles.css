@@ -1,0 +1,556 @@
+:root {
+  --bg: #0c0f14;
+  --bg-elevated: #141a24;
+  --bg-card: #1a2230;
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #e8edf5;
+  --text-muted: #8b9bb5;
+  --accent: #f5a623;
+  --accent-dim: rgba(245, 166, 35, 0.15);
+  --smoke: #6b8cae;
+  --radius: 12px;
+  --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --font: "IBM Plex Sans Thai", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.bg-grid {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black, transparent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(12, 15, 20, 0.85);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brand-mark {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.5rem;
+  background: var(--accent);
+  color: #1a1200;
+  border-radius: 6px;
+}
+
+.brand-text {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.cache-status {
+  font-size: 0.7rem;
+  color: var(--smoke);
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(107, 140, 174, 0.12);
+}
+
+.channel-link {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--text-muted);
+  max-width: 42rem;
+}
+
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.map-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 1.1rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    border-color 0.15s,
+    transform 0.15s,
+    box-shadow 0.15s;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  width: 100%;
+}
+
+.map-card:hover {
+  border-color: rgba(245, 166, 35, 0.45);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+}
+
+.map-card__name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.map-card__count {
+  font-size: 0.8rem;
+  color: var(--smoke);
+}
+
+.map-header {
+  margin-bottom: 1.25rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.map-header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.75rem;
+}
+
+.map-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 900px) {
+  .map-layout {
+    grid-template-columns: minmax(0, 340px) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+.panel {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.panel__toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.4rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.filter-chip {
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 100%;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background 0.12s,
+    color 0.12s,
+    border-color 0.12s,
+    transform 0.08s;
+}
+
+.filter-chip:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.filter-chip:active {
+  transform: scale(0.98);
+}
+
+.filter-chip.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1a1200;
+  font-weight: 600;
+  box-shadow: 0 1px 6px rgba(245, 166, 35, 0.22);
+}
+
+.filter-chip.is-active:hover {
+  background: #ffb84a;
+  border-color: #ffb84a;
+}
+
+.filter-chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.smoke-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: min(70vh, 560px);
+  overflow-y: auto;
+}
+
+.smoke-item {
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.12s;
+}
+
+.smoke-item:last-child {
+  border-bottom: none;
+}
+
+.smoke-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.smoke-item.is-selected {
+  background: var(--accent-dim);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.smoke-item__area {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--smoke);
+  margin-bottom: 0.15rem;
+}
+
+.smoke-item__name {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.smoke-item__time {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.player-panel {
+  padding: 1rem;
+}
+
+.player-panel h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.player-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.btn:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: #1a1200;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.btn--primary:hover {
+  filter: brightness(1.05);
+}
+
+.empty-state {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.site-footer {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+.site-footer p {
+  margin: 0;
+  max-width: 36rem;
+  margin-inline: auto;
+}
+
+.loading {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.error-box {
+  padding: 1rem;
+  border-radius: var(--radius);
+  background: rgba(220, 60, 60, 0.12);
+  border: 1px solid rgba(220, 60, 60, 0.35);
+  color: #ffb4b4;
+}
+
+/* Map detail — maximize video, compact sidebar */
+body.is-map-detail .app {
+  max-width: min(99vw, 1760px);
+  padding: 0.5rem 0.65rem 0.75rem;
+}
+
+body.is-map-detail .site-footer {
+  display: none;
+}
+
+body.is-map-detail .map-header {
+  margin-bottom: 0.5rem;
+}
+
+body.is-map-detail .map-header h1 {
+  font-size: 1.25rem;
+}
+
+body.is-map-detail .back-link {
+  margin-bottom: 0.35rem;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  body.is-map-detail .map-layout {
+    grid-template-columns: minmax(168px, 200px) minmax(0, 1fr);
+    gap: 0.65rem;
+    align-items: stretch;
+    min-height: calc(100vh - 7.5rem);
+  }
+
+  body.is-map-detail .map-layout > .panel:first-child {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    max-height: calc(100vh - 7.5rem);
+  }
+
+  body.is-map-detail .smoke-list {
+    flex: 1;
+    min-height: 0;
+    max-height: none;
+    overflow-y: auto;
+  }
+
+  body.is-map-detail .player-panel {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    height: 100%;
+    padding: 0.4rem 0.5rem 0.5rem;
+  }
+
+  body.is-map-detail .player-panel h2 {
+    font-size: 0.9rem;
+    margin: 0 0 0.4rem;
+    line-height: 1.3;
+  }
+
+  body.is-map-detail .video-wrap {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: auto;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  body.is-map-detail .player-actions {
+    margin-top: 0.45rem;
+    flex-shrink: 0;
+  }
+
+  body.is-map-detail .btn {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.65rem;
+  }
+}
+
+@media (max-width: 767px) {
+  body.is-map-detail .panel__toolbar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.3rem;
+    padding: 0.4rem;
+  }
+
+  body.is-map-detail .filter-chip {
+    width: auto;
+    min-height: 2.35rem;
+    font-size: 0.78rem;
+  }
+}
+
+body.is-map-detail .smoke-item {
+  padding: 0.45rem 0.55rem;
+}
+
+body.is-map-detail .smoke-item__area {
+  font-size: 0.58rem;
+  margin-bottom: 0.1rem;
+}
+
+body.is-map-detail .smoke-item__name {
+  font-size: 0.8rem;
+  line-height: 1.25;
+}
+
+body.is-map-detail .smoke-item__time {
+  font-size: 0.65rem;
+  margin-top: 0.1rem;
+}

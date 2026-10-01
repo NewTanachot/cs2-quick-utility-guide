@@ -1,0 +1,1107 @@
+{
+  "version": 1,
+  "channel": {
+    "name": "CS Tactics",
+    "url": "https://www.youtube.com/@CS2Tactics",
+    "handle": "@CS2Tactics"
+  },
+  "maps": [
+    {
+      "videoId": "sJ8vxrXxxao",
+      "name": "Mirage",
+      "nameTh": "Mirage",
+      "slug": "mirage",
+      "guideTitle": "CS2 Mirage - All ESSENTIAL Smokes for 2025!",
+      "smokes": [
+        {
+          "id": "spawn-cross-smoke",
+          "name": "Cross Smoke",
+          "area": "Spawn",
+          "seconds": 33,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "spawn-connector-smoke",
+          "name": "Connector Smoke",
+          "area": "Spawn",
+          "seconds": 47,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "spawn-cat-short-smoke",
+          "name": "Cat/Short Smoke",
+          "area": "Spawn",
+          "seconds": 61,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "spawn-window-smoke",
+          "name": "Window Smoke",
+          "area": "Spawn",
+          "seconds": 79,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "spawn-instant-window-smokes",
+          "name": "Instant Window Smokes",
+          "area": "Spawn",
+          "seconds": 115,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "spawn-top-connector-smoke",
+          "name": "Top Connector Smoke",
+          "area": "Spawn",
+          "seconds": 191,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-top-connector-smoke",
+          "name": "Top Connector Smoke",
+          "area": "Mid",
+          "seconds": 218,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-window-smoke",
+          "name": "Window Smoke",
+          "area": "Mid",
+          "seconds": 229,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-cat-short-smoke",
+          "name": "Cat/Short Smoke",
+          "area": "Mid",
+          "seconds": 237,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-jungle-smoke",
+          "name": "Jungle Smoke",
+          "area": "Mid",
+          "seconds": 247,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-ct-ticket-smoke",
+          "name": "CT/Ticket Smoke",
+          "area": "Mid",
+          "seconds": 256,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "Mid"
+        },
+        {
+          "id": "a-site-ct-ticket-smoke",
+          "name": "CT/Ticket Smoke",
+          "area": "A-Site",
+          "seconds": 269,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-jungle-connector-smoke-standard",
+          "name": "Jungle/Connector Smoke (Standard)",
+          "area": "A-Site",
+          "seconds": 301,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-jungle-connector-smoke-sandwich",
+          "name": "Jungle/Connector Smoke (Sandwich)",
+          "area": "A-Site",
+          "seconds": 315,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-full-execute-warowl",
+          "name": "Full Execute (WarOwl)",
+          "area": "A-Site",
+          "seconds": 340,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-jungle-connector-smoke-less-lurky",
+          "name": "Jungle/Connector Smoke (Less Lurky)",
+          "area": "A-Site",
+          "seconds": 382,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-giant-smokes-standard",
+          "name": "Giant Smokes (Standard)",
+          "area": "A-Site",
+          "seconds": 408,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-palace-lurk-smoke",
+          "name": "Palace Lurk Smoke",
+          "area": "A-Site",
+          "seconds": 466,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-top-connector-smoke",
+          "name": "Top Connector Smoke",
+          "area": "A-Site",
+          "seconds": 540,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-deep-jungle-smoke",
+          "name": "Deep Jungle Smoke",
+          "area": "A-Site",
+          "seconds": 559,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-rush-smokes",
+          "name": "Rush Smokes",
+          "area": "A-Site",
+          "seconds": 588,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "A-Site"
+        },
+        {
+          "id": "b-site-window-rush-smoke",
+          "name": "Window Rush Smoke",
+          "area": "B-Site",
+          "seconds": 625,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-get-right-smokes",
+          "name": "GeT_RiGhT Smokes",
+          "area": "B-Site",
+          "seconds": 645,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-window-door-smokes",
+          "name": "Window & Door Smokes",
+          "area": "B-Site",
+          "seconds": 701,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-cat-short-smoke",
+          "name": "Cat/Short Smoke",
+          "area": "B-Site",
+          "seconds": 784,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-mid-site-smoke",
+          "name": "Mid Site Smoke",
+          "area": "B-Site",
+          "seconds": 827,
+          "videoId": "sJ8vxrXxxao",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "1bJgKpD339c",
+      "name": "Inferno",
+      "nameTh": "Inferno",
+      "slug": "inferno",
+      "guideTitle": "CS2 Inferno - All ESSENTIAL Smokes for 2025!",
+      "smokes": [
+        {
+          "id": "banana-half-wall-smoke",
+          "name": "Half Wall Smoke",
+          "area": "Banana",
+          "seconds": 23,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "banana-top-banana-smoke",
+          "name": "Top Banana Smoke",
+          "area": "Banana",
+          "seconds": 51,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-ct-boost-smoke",
+          "name": "CT / Boost Smoke",
+          "area": "B-SITE",
+          "seconds": 124,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-coffins-smokes",
+          "name": "Coffins Smokes",
+          "area": "B-SITE",
+          "seconds": 181,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-defensive-site-smoke",
+          "name": "Defensive Site Smoke",
+          "area": "B-SITE",
+          "seconds": 336,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-car-retake-smoke",
+          "name": "Car Retake Smoke",
+          "area": "B-SITE",
+          "seconds": 365,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "banana-bottom-banana-smokes",
+          "name": "Bottom Banana Smokes",
+          "area": "Banana",
+          "seconds": 425,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "banana-mid-banana-smoke",
+          "name": "Mid Banana Smoke",
+          "area": "Banana",
+          "seconds": 464,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "meta-mid-banana-smoke",
+          "name": "Mid / Banana Smoke",
+          "area": "META",
+          "seconds": 492,
+          "videoId": "1bJgKpD339c",
+          "zone": "B-Site"
+        },
+        {
+          "id": "mid-faze-instant-mid-smokes",
+          "name": "FaZe Instant Mid Smokes",
+          "area": "MID",
+          "seconds": 559,
+          "videoId": "1bJgKpD339c",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-center-brackets-smoke",
+          "name": "Center Brackets Smoke",
+          "area": "MID",
+          "seconds": 673,
+          "videoId": "1bJgKpD339c",
+          "zone": "Mid"
+        },
+        {
+          "id": "a-site-arch-side-smoke",
+          "name": "Arch Side Smoke",
+          "area": "A-SITE",
+          "seconds": 705,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-postcard-smokes",
+          "name": "Postcard Smokes",
+          "area": "A-SITE",
+          "seconds": 772,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-library-smoke",
+          "name": "Library Smoke",
+          "area": "A-SITE",
+          "seconds": 819,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-lane-smoke",
+          "name": "Lane Smoke",
+          "area": "A-SITE",
+          "seconds": 845,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-truck-smoke",
+          "name": "Truck Smoke",
+          "area": "A-SITE",
+          "seconds": 899,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-apartments-lurk-smoke",
+          "name": "Apartments Lurk Smoke",
+          "area": "A-SITE",
+          "seconds": 923,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-retake-smoke",
+          "name": "Retake Smoke",
+          "area": "A-SITE",
+          "seconds": 948,
+          "videoId": "1bJgKpD339c",
+          "zone": "A-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "N5LTFBfWoKY",
+      "name": "Ancient",
+      "nameTh": "Ancient",
+      "slug": "ancient",
+      "guideTitle": "CS2 Ancient - All ESSENTIAL Smokes for 2025!",
+      "smokes": [
+        {
+          "id": "general-instant-red-smokes",
+          "name": "Instant Red Smokes",
+          "area": "General",
+          "seconds": 46,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-red-room-smoke",
+          "name": "Red Room Smoke",
+          "area": "General",
+          "seconds": 95,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-heaven-smoke",
+          "name": "Heaven Smoke",
+          "area": "General",
+          "seconds": 113,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-mid-donut-smoke",
+          "name": "Mid Donut Smoke",
+          "area": "General",
+          "seconds": 142,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-jaguar-cave-smoke",
+          "name": "Jaguar/Cave Smoke",
+          "area": "General",
+          "seconds": 189,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-instant-elbow-smokes",
+          "name": "Instant Elbow Smokes",
+          "area": "General",
+          "seconds": 252,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-a-site-smokes-ct-donut",
+          "name": "A-Site Smokes [CT & Donut]",
+          "area": "General",
+          "seconds": 317,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-deep-donut-smoke",
+          "name": "Deep Donut Smoke",
+          "area": "General",
+          "seconds": 388,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-rail-smokes-ct-donut",
+          "name": "Rail Smokes [CT & Donut]",
+          "area": "General",
+          "seconds": 421,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-temple-smoke",
+          "name": "Temple Smoke",
+          "area": "General",
+          "seconds": 460,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-b-site-smokes-short-long",
+          "name": "B-Site Smokes [Short & Long]",
+          "area": "General",
+          "seconds": 513,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-door-smokes-short-long",
+          "name": "Door Smokes [Short & Long]",
+          "area": "General",
+          "seconds": 590,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-b-site-lurk-smoke",
+          "name": "B-Site Lurk Smoke",
+          "area": "General",
+          "seconds": 665,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-b-site-lurk-smoke-spawn",
+          "name": "B-Site Lurk Smoke [Spawn]",
+          "area": "General",
+          "seconds": 722,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-cave-smokes",
+          "name": "Cave Smokes",
+          "area": "General",
+          "seconds": 749,
+          "videoId": "N5LTFBfWoKY",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "mORm-3oZVXM",
+      "name": "Nuke",
+      "nameTh": "Nuke",
+      "slug": "nuke",
+      "guideTitle": "CS2 Nuke - All ESSENTIAL Smokes for 2025!",
+      "smokes": [
+        {
+          "id": "general-red-cross-smoke",
+          "name": "Red Cross Smoke",
+          "area": "General",
+          "seconds": 50,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-deep-cross-smoke",
+          "name": "Deep Cross Smoke",
+          "area": "General",
+          "seconds": 71,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-smoke-wall",
+          "name": "Smoke Wall",
+          "area": "General",
+          "seconds": 105,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-smoke-wall-individual",
+          "name": "Smoke Wall (Individual)",
+          "area": "General",
+          "seconds": 180,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-smoke-wall-blue",
+          "name": "Smoke Wall (Blue)",
+          "area": "General",
+          "seconds": 222,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-main-split",
+          "name": "Main Split",
+          "area": "General",
+          "seconds": 256,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-main-smoke",
+          "name": "Main Smoke",
+          "area": "General",
+          "seconds": 283,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-locker-smoke",
+          "name": "Locker Smoke",
+          "area": "General",
+          "seconds": 309,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-outer-heaven",
+          "name": "Outer Heaven",
+          "area": "General",
+          "seconds": 364,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-vent-lurk",
+          "name": "Vent Lurk",
+          "area": "General",
+          "seconds": 392,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-vent-dive",
+          "name": "Vent Dive",
+          "area": "General",
+          "seconds": 432,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-heaven-smoke",
+          "name": "Heaven Smoke",
+          "area": "General",
+          "seconds": 466,
+          "videoId": "mORm-3oZVXM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-vini-smoke",
+          "name": "VINI Smoke",
+          "area": "General",
+          "seconds": 492,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-ramp-lurk",
+          "name": "Ramp Lurk",
+          "area": "General",
+          "seconds": 576,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-gla1ve-smoke",
+          "name": "gla1ve Smoke",
+          "area": "General",
+          "seconds": 610,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-retake-smokes",
+          "name": "Retake Smokes",
+          "area": "General",
+          "seconds": 645,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-ramp-smoke",
+          "name": "Ramp Smoke",
+          "area": "General",
+          "seconds": 685,
+          "videoId": "mORm-3oZVXM",
+          "zone": "Mid"
+        }
+      ]
+    },
+    {
+      "videoId": "m-MO8wcTy0k",
+      "name": "Dust II",
+      "nameTh": "Dust 2",
+      "slug": "dust2",
+      "guideTitle": "CS2 Dust 2 - ESSENTIAL Smokes EVERYONE Should Know!",
+      "smokes": [
+        {
+          "id": "general-xbox-smokes",
+          "name": "Xbox Smokes",
+          "area": "General",
+          "seconds": 45,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-mid-door-smokes",
+          "name": "Mid Door Smokes",
+          "area": "General",
+          "seconds": 81,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-giant-door-smokes",
+          "name": "Giant Door Smokes",
+          "area": "General",
+          "seconds": 137,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-ct-smokes-for-middle",
+          "name": "CT Smokes for Middle",
+          "area": "General",
+          "seconds": 221,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-mid-to-b-smokes",
+          "name": "Mid to B Smokes",
+          "area": "General",
+          "seconds": 274,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-chopper-cross-smoke",
+          "name": "Chopper Cross Smoke",
+          "area": "General",
+          "seconds": 293,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-long-corner-smokes",
+          "name": "Long Corner Smokes",
+          "area": "General",
+          "seconds": 306,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-long-cross-smoke",
+          "name": "Long Cross Smoke",
+          "area": "General",
+          "seconds": 342,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-defensive-ct-smokes",
+          "name": "Defensive CT Smokes",
+          "area": "General",
+          "seconds": 355,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-fast-long-door-smoke",
+          "name": "Fast Long Door Smoke",
+          "area": "General",
+          "seconds": 374,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-giant-avangar-execute",
+          "name": "Giant Avangar Execute",
+          "area": "General",
+          "seconds": 382,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-b-rush-door-smoke",
+          "name": "B Rush Door Smoke",
+          "area": "General",
+          "seconds": 430,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-twistzz-b-site-lurk-smoke",
+          "name": "Twistzz B-Site Lurk Smoke",
+          "area": "General",
+          "seconds": 466,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-basic-b-site-lurk-smoke",
+          "name": "Basic B-Site Lurk Smoke",
+          "area": "General",
+          "seconds": 482,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-b-site-execute-smokes",
+          "name": "B-Site Execute Smokes",
+          "area": "General",
+          "seconds": 508,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-b-site-defense-smokes",
+          "name": "B-Site Defense Smokes",
+          "area": "General",
+          "seconds": 605,
+          "videoId": "m-MO8wcTy0k",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "o91KgiRs1Vs",
+      "name": "Overpass",
+      "nameTh": "Overpass",
+      "slug": "overpass",
+      "guideTitle": "CS2 Overpass is BACK! - All ESSENTIAL Smokes for SEASON 3!",
+      "smokes": [
+        {
+          "id": "general-dumpster-bank-smokes",
+          "name": "Dumpster & Bank Smokes",
+          "area": "General",
+          "seconds": 71,
+          "videoId": "o91KgiRs1Vs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-ct-smokes",
+          "name": "CT Smokes",
+          "area": "General",
+          "seconds": 169,
+          "videoId": "o91KgiRs1Vs",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-heaven-smokes",
+          "name": "Heaven Smokes",
+          "area": "General",
+          "seconds": 238,
+          "videoId": "o91KgiRs1Vs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-b-site-smokes",
+          "name": "B-Site Smokes",
+          "area": "General",
+          "seconds": 288,
+          "videoId": "o91KgiRs1Vs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-mid-bathroom-smokes",
+          "name": "Mid/Bathroom Smokes",
+          "area": "General",
+          "seconds": 352,
+          "videoId": "o91KgiRs1Vs",
+          "zone": "Mid"
+        },
+        {
+          "id": "general-closing-thoughts",
+          "name": "Closing Thoughts",
+          "area": "General",
+          "seconds": 406,
+          "videoId": "o91KgiRs1Vs",
+          "zone": "Mid"
+        }
+      ]
+    },
+    {
+      "videoId": "4BFb_RGez3s",
+      "name": "Train",
+      "nameTh": "Train",
+      "slug": "train",
+      "guideTitle": "CS2 Train - All ESSENTIAL Smokes for SEASON 3!",
+      "smokes": [
+        {
+          "id": "general-sandwich-smokes",
+          "name": "Sandwich Smokes",
+          "area": "General",
+          "seconds": 44,
+          "videoId": "4BFb_RGez3s",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-camera-z-smokes",
+          "name": "Camera & Z Smokes",
+          "area": "General",
+          "seconds": 127,
+          "videoId": "4BFb_RGez3s",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-additional-a-site-smokes",
+          "name": "Additional A-Site Smokes",
+          "area": "General",
+          "seconds": 235,
+          "videoId": "4BFb_RGez3s",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-b-site-execute-smokes",
+          "name": "B-Site Execute Smokes",
+          "area": "General",
+          "seconds": 289,
+          "videoId": "4BFb_RGez3s",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-b-site-z-connector-smokes",
+          "name": "B-Site Z/Connector Smokes",
+          "area": "General",
+          "seconds": 372,
+          "videoId": "4BFb_RGez3s",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-ct-side-smokes",
+          "name": "CT-Side Smokes",
+          "area": "General",
+          "seconds": 416,
+          "videoId": "4BFb_RGez3s",
+          "zone": "Mid"
+        }
+      ]
+    },
+    {
+      "videoId": "XFnT-jBD52k",
+      "name": "Vertigo",
+      "nameTh": "Vertigo",
+      "slug": "vertigo",
+      "guideTitle": "CS2 Vertigo - All Essential Nades for 2026!",
+      "smokes": [
+        {
+          "id": "a-site-openings",
+          "name": "A-Site Opening Smokes",
+          "area": "A-Site",
+          "seconds": 157,
+          "videoId": "XFnT-jBD52k",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-executes",
+          "name": "A-Site Execute Smokes",
+          "area": "A-Site",
+          "seconds": 357,
+          "videoId": "XFnT-jBD52k",
+          "zone": "A-Site"
+        },
+        {
+          "id": "a-site-retakes",
+          "name": "A-Site Retake Smokes",
+          "area": "A-Site",
+          "seconds": 464,
+          "videoId": "XFnT-jBD52k",
+          "zone": "A-Site"
+        },
+        {
+          "id": "mid-openings",
+          "name": "Mid Opening Smokes",
+          "area": "Mid",
+          "seconds": 542,
+          "videoId": "XFnT-jBD52k",
+          "zone": "Mid"
+        },
+        {
+          "id": "mid-takes",
+          "name": "Mid Take Smokes",
+          "area": "Mid",
+          "seconds": 604,
+          "videoId": "XFnT-jBD52k",
+          "zone": "Mid"
+        },
+        {
+          "id": "b-site-openings",
+          "name": "B-Site Opening Smokes",
+          "area": "B-Site",
+          "seconds": 662,
+          "videoId": "XFnT-jBD52k",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-executes",
+          "name": "B-Site Execute Smokes",
+          "area": "B-Site",
+          "seconds": 723,
+          "videoId": "XFnT-jBD52k",
+          "zone": "B-Site"
+        },
+        {
+          "id": "b-site-retakes",
+          "name": "B-Site Retake Smokes",
+          "area": "B-Site",
+          "seconds": 907,
+          "videoId": "XFnT-jBD52k",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "name": "Anubis",
+      "nameTh": "Anubis",
+      "slug": "anubis",
+      "videoId": "z-qjha2fj64",
+      "guideTitle": "CS2 Anubis - Essential A & B Site Smokes (CS Tactics)",
+      "smokes": [
+        {
+          "id": "general-heaven-smokes",
+          "name": "Heaven Smokes",
+          "area": "A-Site",
+          "seconds": 48,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-camera-smokes",
+          "name": "Camera Smokes",
+          "area": "A-Site",
+          "seconds": 141,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-plat-smoke",
+          "name": "Plat Smoke",
+          "area": "A-Site",
+          "seconds": 207,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-mid-split-smoke",
+          "name": "Mid Split Smoke",
+          "area": "A-Site",
+          "seconds": 262,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-main-control",
+          "name": "Main Control",
+          "area": "A-Site",
+          "seconds": 297,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-t-main-spawn-smoke",
+          "name": "T Main Spawn Smoke",
+          "area": "A-Site",
+          "seconds": 373,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-lurk-smoke",
+          "name": "Lurk Smoke",
+          "area": "A-Site",
+          "seconds": 397,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-ct-side-smokes",
+          "name": "CT Side Smokes",
+          "area": "A-Site",
+          "seconds": 445,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-ct-main-spawn-smoke",
+          "name": "CT Main Spawn Smoke",
+          "area": "A-Site",
+          "seconds": 501,
+          "videoId": "z-qjha2fj64",
+          "zone": "A-Site"
+        },
+        {
+          "id": "general-essential-site-smokes",
+          "name": "Essential Site Smokes",
+          "area": "B-Site",
+          "seconds": 44,
+          "videoId": "D2azpBCluf8",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-ebox-smokes",
+          "name": "Ebox Smokes",
+          "area": "B-Site",
+          "seconds": 119,
+          "videoId": "D2azpBCluf8",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-lurk-smoke-D2azpB",
+          "name": "Lurk Smoke",
+          "area": "B-Site",
+          "seconds": 167,
+          "videoId": "D2azpBCluf8",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-left-right-smokes-mid",
+          "name": "Left/Right Smokes (Mid)",
+          "area": "B-Site",
+          "seconds": 198,
+          "videoId": "D2azpBCluf8",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-stairs-arch-smokes-ct",
+          "name": "Stairs & Arch Smokes (CT)",
+          "area": "B-Site",
+          "seconds": 237,
+          "videoId": "D2azpBCluf8",
+          "zone": "B-Site"
+        },
+        {
+          "id": "general-main-smoke-ct",
+          "name": "Main Smoke (CT)",
+          "area": "B-Site",
+          "seconds": 296,
+          "videoId": "D2azpBCluf8",
+          "zone": "B-Site"
+        }
+      ]
+    }
+  ]
+}
