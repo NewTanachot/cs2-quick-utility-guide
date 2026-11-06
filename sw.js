@@ -1,5 +1,5 @@
-const STATIC_CACHE = "cs2-smoke-static-v15";
-const DATA_CACHE = "cs2-smoke-data-v15";
+const STATIC_CACHE = "cs2-smoke-static-v16";
+const DATA_CACHE = "cs2-smoke-data-v16";
 
 const MAP_ART = [
   "dust2",
@@ -20,10 +20,12 @@ const PRECACHE_URLS = [
   "./css/styles.css",
   "./css/map-picker.css",
   "./js/app.js",
+  "./js/creators.js",
   "./js/map-cache.js",
   "./js/map-layout.js",
   "./js/site-zones.js",
   "./data/smokes.json",
+  "./data/nxz.json",
   ...MAP_ART,
 ];
 
@@ -55,9 +57,10 @@ function isSameOrigin(request) {
   return new URL(request.url).origin === self.location.origin;
 }
 
+/** One lineup file per creator (`data/smokes.json`, `data/nxz.json`, ...). */
 function isSmokeData(request) {
   const path = new URL(request.url).pathname;
-  return path.endsWith("/data/smokes.json") || path.endsWith("smokes.json");
+  return /\/data\/[^/]+\.json$/.test(path);
 }
 
 async function staleWhileRevalidate(request) {

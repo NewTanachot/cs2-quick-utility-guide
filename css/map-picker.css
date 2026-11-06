@@ -258,6 +258,10 @@ body.is-map-picker .app {
   font-size: 0.9rem;
 }
 
+.map-empty .map-empty__alt {
+  margin-top: 0.75rem;
+}
+
 @media (max-width: 900px) {
   .map-picker {
     min-height: auto;

@@ -1,0 +1,1372 @@
+{
+  "version": 1,
+  "channel": {
+    "name": "NXZ",
+    "url": "https://www.youtube.com/@nxznxznxz",
+    "handle": "@nxznxznxz",
+    "playlist": "https://www.youtube.com/playlist?list=PLX-fCrB2FJLqmFLQ0dvM_yl8wHRgsQPNG"
+  },
+  "maps": [
+    {
+      "videoId": "27rin4u-ZCY",
+      "name": "Cache",
+      "nameTh": "Cache",
+      "slug": "cache",
+      "guideTitle": "สอนปาควัน Cache 2026 | CS2",
+      "smokes": [
+        {
+          "id": "t-connector-smoke",
+          "name": "Connector Smoke (T)",
+          "area": "T Side",
+          "seconds": 29,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-crisscross-smoke",
+          "name": "Crisscross Smoke (T)",
+          "area": "T Side",
+          "seconds": 79,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-mid-flash",
+          "name": "Mid Flash (T)",
+          "area": "T Side",
+          "seconds": 120,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-sandbags-molly",
+          "name": "Sandbags Molly (T)",
+          "area": "T Side",
+          "seconds": 135,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-vent-molly",
+          "name": "Vent Molly (T)",
+          "area": "T Side",
+          "seconds": 178,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-basic-a-cross-smoke",
+          "name": "Basic A Cross Smoke (T)",
+          "area": "T Side",
+          "seconds": 203,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-cross-smoke",
+          "name": "A Cross Smoke (T)",
+          "area": "T Side",
+          "seconds": 261,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-back-site-smoke",
+          "name": "A Back Site Smoke (T)",
+          "area": "T Side",
+          "seconds": 287,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-waterfall-smoke",
+          "name": "A Waterfall Smoke (T)",
+          "area": "T Side",
+          "seconds": 313,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-cross-back-site-from-garage",
+          "name": "A Cross + Back Site from Garage (T)",
+          "area": "T Side",
+          "seconds": 381,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-nbk-smoke",
+          "name": "NBK Smoke (T)",
+          "area": "T Side",
+          "seconds": 440,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-b-main-smoke",
+          "name": "B Main Smoke (T)",
+          "area": "T Side",
+          "seconds": 464,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-quick-tree-smoke",
+          "name": "Quick Tree Smoke (T)",
+          "area": "T Side",
+          "seconds": 519,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-quick-heaven-smoke",
+          "name": "Quick Heaven Smoke (T)",
+          "area": "T Side",
+          "seconds": 537,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-heaven-smoke",
+          "name": "Heaven Smoke (T)",
+          "area": "T Side",
+          "seconds": 578,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-tree-smoke",
+          "name": "Tree Smoke (T)",
+          "area": "T Side",
+          "seconds": 600,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-back-site-left-side-molly",
+          "name": "B Back Site + Left Side Molly (T)",
+          "area": "T Side",
+          "seconds": 620,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-headshot-molly",
+          "name": "Headshot Molly (T)",
+          "area": "T Side",
+          "seconds": 646,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-flash",
+          "name": "B Flash (T)",
+          "area": "T Side",
+          "seconds": 673,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-garage-smoke",
+          "name": "Garage Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 731,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "ct-boost-molly",
+          "name": "Boost Molly (CT)",
+          "area": "CT Side",
+          "seconds": 775,
+          "videoId": "27rin4u-ZCY",
+          "zone": "Mid"
+        },
+        {
+          "id": "ct-a-main-smoke",
+          "name": "A Main Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 804,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-a-main-flashes",
+          "name": "A Main Flashes (CT)",
+          "area": "CT Side",
+          "seconds": 822,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-quad-molly",
+          "name": "Quad Molly (CT)",
+          "area": "CT Side",
+          "seconds": 864,
+          "videoId": "27rin4u-ZCY",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-b-main-smoke",
+          "name": "B Main Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 891,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-b-retake-smoke",
+          "name": "B Retake Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 938,
+          "videoId": "27rin4u-ZCY",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "Sesx0u6xT38",
+      "name": "Anubis",
+      "nameTh": "Anubis",
+      "slug": "anubis",
+      "guideTitle": "ปาควัน Anubis 2026",
+      "smokes": [
+        {
+          "id": "full-video",
+          "name": "ดูทั้งคลิป",
+          "area": "General",
+          "seconds": 0,
+          "videoId": "Sesx0u6xT38",
+          "zone": "Mid"
+        }
+      ]
+    },
+    {
+      "videoId": "UcGCVThoKSs",
+      "name": "Inferno",
+      "nameTh": "Inferno",
+      "slug": "inferno",
+      "guideTitle": "สอนปาควัน Inferno 2025 | CS2",
+      "smokes": [
+        {
+          "id": "t-t-to-close-banana",
+          "name": "T to Close Banana (T)",
+          "area": "T Side",
+          "seconds": 30,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-ct-smoke",
+          "name": "CT Smoke (T)",
+          "area": "T Side",
+          "seconds": 110,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-coffins-smoke",
+          "name": "Coffins Smoke (T)",
+          "area": "T Side",
+          "seconds": 140,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-car-to-b-site",
+          "name": "Car to B-Site (T)",
+          "area": "T Side",
+          "seconds": 290,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-top-mid-smoke",
+          "name": "Top Mid Smoke (T)",
+          "area": "T Side",
+          "seconds": 340,
+          "videoId": "UcGCVThoKSs",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-library-smoke",
+          "name": "Library Smoke (T)",
+          "area": "T Side",
+          "seconds": 400,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-arch-side-smoke",
+          "name": "Arch Side Smoke (T)",
+          "area": "T Side",
+          "seconds": 430,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-arch-smoke",
+          "name": "Arch Smoke (T)",
+          "area": "T Side",
+          "seconds": 470,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-patio-porch-molotov",
+          "name": "Patio / Porch Molotov (T)",
+          "area": "T Side",
+          "seconds": 550,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-pit-molotov",
+          "name": "Pit Molotov (T)",
+          "area": "T Side",
+          "seconds": 620,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-truck-smoke",
+          "name": "Truck Smoke (T)",
+          "area": "T Side",
+          "seconds": 660,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-arch-smoke-2",
+          "name": "Arch Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 690,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-library-smoke-2",
+          "name": "Library Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 720,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-truck-smoke-2",
+          "name": "Truck Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 770,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-balcony-smoke",
+          "name": "Balcony Smoke (T)",
+          "area": "T Side",
+          "seconds": 870,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-half-wall-banana",
+          "name": "Half Wall Banana (CT)",
+          "area": "CT Side",
+          "seconds": 960,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-banana-smoke",
+          "name": "Banana Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 1020,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-bottom-mid-smoke",
+          "name": "Bottom Mid Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 1140,
+          "videoId": "UcGCVThoKSs",
+          "zone": "Mid"
+        },
+        {
+          "id": "ct-mid-smoke",
+          "name": "Mid Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 1200,
+          "videoId": "UcGCVThoKSs",
+          "zone": "Mid"
+        },
+        {
+          "id": "ct-a-site-retake-smoke",
+          "name": "A-Site Retake Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 1270,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-a-site-molotov",
+          "name": "A-Site Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 1330,
+          "videoId": "UcGCVThoKSs",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-dark-molotov",
+          "name": "Dark Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 1430,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-new-box-pillar-molotov",
+          "name": "New Box - Pillar Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 1460,
+          "videoId": "UcGCVThoKSs",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "BQfKm9bvXcM",
+      "name": "Mirage",
+      "nameTh": "Mirage",
+      "slug": "mirage",
+      "guideTitle": "สอนปาควัน Mirage 2025 | CS2",
+      "smokes": [
+        {
+          "id": "t-connector-jungle-smoke",
+          "name": "Connector + Jungle Smoke (T)",
+          "area": "T Side",
+          "seconds": 80,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-stairs-smoke",
+          "name": "Stairs Smoke (T)",
+          "area": "T Side",
+          "seconds": 100,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-connector-jungle-smoke-2",
+          "name": "Connector + Jungle Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 150,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-ct-smoke",
+          "name": "CT Smoke (T)",
+          "area": "T Side",
+          "seconds": 190,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-sandwich-molotov",
+          "name": "Sandwich Molotov (T)",
+          "area": "T Side",
+          "seconds": 250,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-palace-to-balcony-smoke",
+          "name": "Palace to Balcony Smoke (T)",
+          "area": "T Side",
+          "seconds": 300,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-under-balcony-molotov",
+          "name": "Under Balcony Molotov (T)",
+          "area": "T Side",
+          "seconds": 350,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-b-short-smoke",
+          "name": "B Short Smoke (T)",
+          "area": "T Side",
+          "seconds": 470,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-window-smoke",
+          "name": "Window Smoke (T)",
+          "area": "T Side",
+          "seconds": 490,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-connector-smoke",
+          "name": "Connector Smoke (T)",
+          "area": "T Side",
+          "seconds": 570,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-cross-smoke",
+          "name": "Cross Smoke (T)",
+          "area": "T Side",
+          "seconds": 590,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-window-smoke-2",
+          "name": "Window Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 640,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-b-short-smoke-2",
+          "name": "B Short Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 680,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-mid-to-jungle-smoke",
+          "name": "Mid to Jungle Smoke (T)",
+          "area": "T Side",
+          "seconds": 690,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-mid-to-ct-smoke",
+          "name": "Mid to CT Smoke (T)",
+          "area": "T Side",
+          "seconds": 710,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-market-window-smoke",
+          "name": "Market Window Smoke (T)",
+          "area": "T Side",
+          "seconds": 760,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-market-smoke",
+          "name": "Market Smoke (T)",
+          "area": "T Side",
+          "seconds": 780,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-short-smoke-3",
+          "name": "B Short Smoke #3 (T)",
+          "area": "T Side",
+          "seconds": 810,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-top-mid-smoke",
+          "name": "Top Mid Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 870,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        },
+        {
+          "id": "ct-apartments-molotov",
+          "name": "Apartments Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 930,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-tetris-molotov",
+          "name": "Tetris Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 960,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-a-main-molotov",
+          "name": "A-Main Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 990,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-a-site-molotov",
+          "name": "A-Site Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 1020,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-he-to-peek-window",
+          "name": "HE to Peek Window (CT)",
+          "area": "CT Side",
+          "seconds": 1060,
+          "videoId": "BQfKm9bvXcM",
+          "zone": "Mid"
+        }
+      ]
+    },
+    {
+      "videoId": "pMkjgm24s8o",
+      "name": "Dust II",
+      "nameTh": "Dust 2",
+      "slug": "dust2",
+      "guideTitle": "สอนปาควัน Dust 2 2025 | CS2",
+      "smokes": [
+        {
+          "id": "t-a-long-corner-smoke",
+          "name": "A-Long Corner Smoke (T)",
+          "area": "T Side",
+          "seconds": 90,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-ct-spawn-smoke",
+          "name": "CT Spawn Smoke (T)",
+          "area": "T Side",
+          "seconds": 130,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-car-molotov",
+          "name": "A Car Molotov (T)",
+          "area": "T Side",
+          "seconds": 290,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-site-elevator-molotov",
+          "name": "Site + Elevator Molotov (T)",
+          "area": "T Side",
+          "seconds": 340,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-x-box-smoke",
+          "name": "X-Box Smoke (T)",
+          "area": "T Side",
+          "seconds": 410,
+          "videoId": "pMkjgm24s8o",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-mid-door-smoke",
+          "name": "Mid-Door Smoke (T)",
+          "area": "T Side",
+          "seconds": 510,
+          "videoId": "pMkjgm24s8o",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-a-short-smoke",
+          "name": "A-Short Smoke (T)",
+          "area": "T Side",
+          "seconds": 550,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-mid-to-b-site",
+          "name": "Mid to B-Site (T)",
+          "area": "T Side",
+          "seconds": 630,
+          "videoId": "pMkjgm24s8o",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-t-spawn-to-b-door",
+          "name": "T Spawn to B-Door (T)",
+          "area": "T Side",
+          "seconds": 720,
+          "videoId": "pMkjgm24s8o",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-outside-tunnels-to-b-window",
+          "name": "Outside Tunnels to B-Window (T)",
+          "area": "T Side",
+          "seconds": 770,
+          "videoId": "pMkjgm24s8o",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-outside-tunnels-to-b-door",
+          "name": "Outside Tunnels to B-Door (T)",
+          "area": "T Side",
+          "seconds": 810,
+          "videoId": "pMkjgm24s8o",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-ct-spawn-to-long-doors",
+          "name": "CT Spawn to Long Doors (CT)",
+          "area": "CT Side",
+          "seconds": 910,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-site-molotov",
+          "name": "A-Site Molotov (T)",
+          "area": "T Side",
+          "seconds": 970,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-site-he-grenade",
+          "name": "A-Site HE Grenade (T)",
+          "area": "T Side",
+          "seconds": 980,
+          "videoId": "pMkjgm24s8o",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-b-site-molotov",
+          "name": "B-Site Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 990,
+          "videoId": "pMkjgm24s8o",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "9gGV9pEg7mU",
+      "name": "Nuke",
+      "nameTh": "Nuke",
+      "slug": "nuke",
+      "guideTitle": "สอนปาควัน Nuke 2025 | CS2",
+      "smokes": [
+        {
+          "id": "map-callouts",
+          "name": "Map Callouts",
+          "area": "General",
+          "seconds": 20,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-outside-smoke",
+          "name": "Outside Smoke (T)",
+          "area": "T Side",
+          "seconds": 140,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-red-smoke",
+          "name": "Red Smoke (T)",
+          "area": "T Side",
+          "seconds": 180,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-outside-smoke-2",
+          "name": "Outside Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 240,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-main-smoke",
+          "name": "Main Smoke (T)",
+          "area": "T Side",
+          "seconds": 280,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-outside-smoke-3",
+          "name": "Outside Smoke #3 (T)",
+          "area": "T Side",
+          "seconds": 340,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-secret-molotov",
+          "name": "Secret Molotov (T)",
+          "area": "T Side",
+          "seconds": 390,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-blue-box-smoke",
+          "name": "Blue Box Smoke (T)",
+          "area": "T Side",
+          "seconds": 420,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-credit-card-molotov",
+          "name": "Credit Card Molotov (T)",
+          "area": "T Side",
+          "seconds": 450,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-main-smoke-2",
+          "name": "Main Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 460,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-outside-flash",
+          "name": "Outside Flash (T)",
+          "area": "T Side",
+          "seconds": 510,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-vent-squeaky-smoke",
+          "name": "Vent-Squeaky Smoke (T)",
+          "area": "T Side",
+          "seconds": 590,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-vent-squeaky-he",
+          "name": "Vent-Squeaky HE (T)",
+          "area": "T Side",
+          "seconds": 620,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-default-molotov",
+          "name": "Default Molotov (T)",
+          "area": "T Side",
+          "seconds": 670,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-hut-tetris-molotov",
+          "name": "Hut - Tetris Molotov (T)",
+          "area": "T Side",
+          "seconds": 700,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-ramp-lurk-smoke",
+          "name": "Ramp Lurk Smoke (T)",
+          "area": "T Side",
+          "seconds": 760,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-door-molotov",
+          "name": "Door Molotov (T)",
+          "area": "T Side",
+          "seconds": 790,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-ramp-flash",
+          "name": "Ramp Flash (T)",
+          "area": "T Side",
+          "seconds": 800,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-gla1ve-smoke",
+          "name": "Gla1ve Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 830,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "Mid"
+        },
+        {
+          "id": "ct-squeaky-molotov",
+          "name": "Squeaky Molotov (CT)",
+          "area": "CT Side",
+          "seconds": 870,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-vent-squeaky-smoke",
+          "name": "Vent-Squeaky Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 880,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-hut-smoke",
+          "name": "Hut Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 900,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-ramp-smoke",
+          "name": "Ramp Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 940,
+          "videoId": "9gGV9pEg7mU",
+          "zone": "B-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "VyoZwhJsl44",
+      "name": "Ancient",
+      "nameTh": "Ancient",
+      "slug": "ancient",
+      "guideTitle": "สอนปาควัน Ancient 2025 | CS2",
+      "smokes": [
+        {
+          "id": "t-red-smoke",
+          "name": "Red Smoke (T)",
+          "area": "T Side",
+          "seconds": 70,
+          "videoId": "VyoZwhJsl44",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-window-smoke",
+          "name": "Window Smoke (T)",
+          "area": "T Side",
+          "seconds": 155,
+          "videoId": "VyoZwhJsl44",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-donut-smoke",
+          "name": "Donut Smoke (T)",
+          "area": "T Side",
+          "seconds": 180,
+          "videoId": "VyoZwhJsl44",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-cheetah-smoke",
+          "name": "Cheetah Smoke (T)",
+          "area": "T Side",
+          "seconds": 240,
+          "videoId": "VyoZwhJsl44",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-donut-smoke-2",
+          "name": "Donut Smoke #2 (T)",
+          "area": "T Side",
+          "seconds": 320,
+          "videoId": "VyoZwhJsl44",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-ct-smoke",
+          "name": "CT Smoke (T)",
+          "area": "T Side",
+          "seconds": 355,
+          "videoId": "VyoZwhJsl44",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-temple-smoke",
+          "name": "Temple Smoke (T)",
+          "area": "T Side",
+          "seconds": 380,
+          "videoId": "VyoZwhJsl44",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-b-short-smoke",
+          "name": "B Short Smoke (T)",
+          "area": "T Side",
+          "seconds": 425,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-long-smoke",
+          "name": "B Long Smoke (T)",
+          "area": "T Side",
+          "seconds": 445,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-wood-molotov",
+          "name": "Wood Molotov (T)",
+          "area": "T Side",
+          "seconds": 465,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-cave-smoke",
+          "name": "Cave Smoke (T)",
+          "area": "T Side",
+          "seconds": 495,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-lurk-smoke",
+          "name": "B Lurk Smoke (T)",
+          "area": "T Side",
+          "seconds": 515,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-smokes",
+          "name": "B Smokes (T)",
+          "area": "T Side",
+          "seconds": 585,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-wood-molotov-2",
+          "name": "Wood Molotov #2 (T)",
+          "area": "T Side",
+          "seconds": 610,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-flashes",
+          "name": "B Flashes (T)",
+          "area": "T Side",
+          "seconds": 640,
+          "videoId": "VyoZwhJsl44",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-elbow-smoke",
+          "name": "Elbow Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 670,
+          "videoId": "VyoZwhJsl44",
+          "zone": "Mid"
+        }
+      ]
+    },
+    {
+      "videoId": "u15a5-GrYj4",
+      "name": "Overpass",
+      "nameTh": "Overpass",
+      "slug": "overpass",
+      "guideTitle": "สอนปาควัน Overpass 2025 | CS2",
+      "smokes": [
+        {
+          "id": "t-toilet-smoke",
+          "name": "Toilet Smoke (T)",
+          "area": "T Side",
+          "seconds": 15,
+          "videoId": "u15a5-GrYj4",
+          "zone": "Mid"
+        },
+        {
+          "id": "t-divider-molotov",
+          "name": "Divider Molotov (T)",
+          "area": "T Side",
+          "seconds": 45,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-top-banana-smoke",
+          "name": "Top Banana Smoke (T)",
+          "area": "T Side",
+          "seconds": 65,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-top-banana-molotov",
+          "name": "Top Banana Molotov (T)",
+          "area": "T Side",
+          "seconds": 90,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-smokes",
+          "name": "A Smokes (T)",
+          "area": "T Side",
+          "seconds": 115,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-pipe-smoke",
+          "name": "Pipe Smoke (T)",
+          "area": "T Side",
+          "seconds": 220,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-connector-smoke",
+          "name": "Connector Smoke (T)",
+          "area": "T Side",
+          "seconds": 250,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-heaven-smoke",
+          "name": "Heaven Smoke (T)",
+          "area": "T Side",
+          "seconds": 275,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-flash",
+          "name": "B Flash (T)",
+          "area": "T Side",
+          "seconds": 345,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-short-smoke",
+          "name": "B Short Smoke (T)",
+          "area": "T Side",
+          "seconds": 365,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-b-site-smoke",
+          "name": "B Site Smoke (T)",
+          "area": "T Side",
+          "seconds": 390,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-monster-smoke",
+          "name": "Monster Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 420,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-b-site-smoke",
+          "name": "B Site Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 480,
+          "videoId": "u15a5-GrYj4",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-t-stairs-smoke",
+          "name": "T Stairs Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 520,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-divider-smoke",
+          "name": "Divider Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 555,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-a-site-smoke",
+          "name": "A Site Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 580,
+          "videoId": "u15a5-GrYj4",
+          "zone": "A-Site"
+        }
+      ]
+    },
+    {
+      "videoId": "XPssZzIJtaw",
+      "name": "Train",
+      "nameTh": "Train",
+      "slug": "train",
+      "guideTitle": "สอนปาควัน Train 2025 | CS2",
+      "smokes": [
+        {
+          "id": "t-sandwich-smoke",
+          "name": "Sandwich Smoke (T)",
+          "area": "T Side",
+          "seconds": 25,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-camera-smoke",
+          "name": "Camera Smoke (T)",
+          "area": "T Side",
+          "seconds": 75,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-connector-smoke",
+          "name": "Connector Smoke (T)",
+          "area": "T Side",
+          "seconds": 140,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-a-site-smoke",
+          "name": "A Site Smoke (T)",
+          "area": "T Side",
+          "seconds": 160,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-popdog-smoke",
+          "name": "Popdog Smoke (T)",
+          "area": "T Side",
+          "seconds": 180,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-ivy-smoke",
+          "name": "Ivy Smoke (T)",
+          "area": "T Side",
+          "seconds": 205,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-main-support-smoke",
+          "name": "Main Support Smoke (T)",
+          "area": "T Side",
+          "seconds": 240,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-main-smoke",
+          "name": "Main Smoke (T)",
+          "area": "T Side",
+          "seconds": 265,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "t-b-halls-smoke",
+          "name": "B Halls Smoke (T)",
+          "area": "T Side",
+          "seconds": 315,
+          "videoId": "XPssZzIJtaw",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-connector-smoke-2",
+          "name": "Connector Smoke (T)",
+          "area": "T Side",
+          "seconds": 350,
+          "videoId": "XPssZzIJtaw",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-ramp-smoke",
+          "name": "Ramp Smoke (T)",
+          "area": "T Side",
+          "seconds": 420,
+          "videoId": "XPssZzIJtaw",
+          "zone": "B-Site"
+        },
+        {
+          "id": "t-lurk-smoke",
+          "name": "Lurk Smoke (T)",
+          "area": "T Side",
+          "seconds": 445,
+          "videoId": "XPssZzIJtaw",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-main-smoke",
+          "name": "Main Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 475,
+          "videoId": "XPssZzIJtaw",
+          "zone": "A-Site"
+        },
+        {
+          "id": "ct-brown-halls-smoke",
+          "name": "Brown Halls Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 515,
+          "videoId": "XPssZzIJtaw",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-ramp-smoke",
+          "name": "Ramp Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 540,
+          "videoId": "XPssZzIJtaw",
+          "zone": "B-Site"
+        },
+        {
+          "id": "ct-t-halls-smoke",
+          "name": "T Halls Smoke (CT)",
+          "area": "CT Side",
+          "seconds": 565,
+          "videoId": "XPssZzIJtaw",
+          "zone": "Mid"
+        }
+      ]
+    }
+  ]
+}

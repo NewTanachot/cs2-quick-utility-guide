@@ -12,27 +12,36 @@ export const PICKER_GRID_SLUGS = [
   "vertigo",
 ];
 
-/** @type {{ slug: string, name: string, nameTh: string, smokes: [], empty: true }} */
-export const CACHE_MAP = {
-  slug: "cache",
-  name: "Cache",
-  nameTh: "Cache",
-  smokes: [],
-  empty: true,
+/** Names for picker slots a creator has no video for yet. */
+const SLOT_NAMES = {
+  cache: "Cache",
+  anubis: "Anubis",
+  inferno: "Inferno",
+  mirage: "Mirage",
+  dust2: "Dust II",
+  nuke: "Nuke",
+  ancient: "Ancient",
+  overpass: "Overpass",
+  train: "Train",
+  vertigo: "Vertigo",
 };
+
+/**
+ * Empty stand-in so every creator shows the same 10 slots.
+ * @param {string} slug
+ * @returns {{ slug: string, name: string, nameTh: string, smokes: [], empty: true }}
+ */
+function emptyMap(slug) {
+  const name = SLOT_NAMES[slug];
+  return { slug, name, nameTh: name, smokes: [], empty: true };
+}
 
 /**
  * @param {Array<{ slug: string, name: string, nameTh?: string, smokes: unknown[] }>} maps
  */
 export function getMapsForPickerGrid(maps) {
   const bySlug = new Map(maps.map((m) => [m.slug, m]));
-
-  return PICKER_GRID_SLUGS.map((slug) => {
-    if (slug === "cache") {
-      return bySlug.get("cache") ?? CACHE_MAP;
-    }
-    return bySlug.get(slug);
-  }).filter(Boolean);
+  return PICKER_GRID_SLUGS.map((slug) => bySlug.get(slug) ?? emptyMap(slug));
 }
 
 /**
@@ -40,10 +49,9 @@ export function getMapsForPickerGrid(maps) {
  * @param {string} slug
  */
 export function resolveMapBySlug(maps, slug) {
-  if (slug === "cache") {
-    return maps.find((m) => m.slug === "cache") ?? CACHE_MAP;
-  }
-  return maps.find((m) => m.slug === slug);
+  const found = maps.find((m) => m.slug === slug);
+  if (found) return found;
+  return PICKER_GRID_SLUGS.includes(slug) ? emptyMap(slug) : undefined;
 }
 
 export function displayMapName(map) {
